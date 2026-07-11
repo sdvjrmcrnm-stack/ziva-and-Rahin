@@ -168,6 +168,66 @@ body {
     font-style: italic;
 }
 
+/* Letter Section */
+.letter-section {
+    padding: 40px 20px;
+    margin-bottom: 40px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(236, 72, 153, 0.15);
+    animation: slideInUp 1s ease-in-out;
+}
+
+.letter-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #ec4899;
+    margin-bottom: 40px;
+}
+
+.letter-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.letter-content {
+    line-height: 1.8;
+    color: #333;
+    font-size: 1.05rem;
+}
+
+.letter-greeting {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ec4899;
+    margin-bottom: 20px;
+}
+
+.letter-content p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.letter-content .highlight {
+    color: #ec4899;
+    font-weight: 600;
+}
+
+.letter-content .closing {
+    font-style: italic;
+    color: #be185d;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.signature {
+    margin-top: 30px;
+    text-align: right;
+    font-size: 1.1rem;
+    color: #ec4899;
+    font-weight: 600;
+}
+
 /* Gallery */
 .gallery-section {
     padding: 40px 20px;
@@ -400,5 +460,13 @@ body {
 
     .gallery {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .letter-content {
+        font-size: 0.95rem;
+    }
+
+    .letter-content p {
+        text-align: left;
     }
 }
